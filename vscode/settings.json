@@ -1,6 +1,6 @@
 {
   "editor.fontSize": 13,
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": false,
   "editor.rulers": [
     80,
     120
@@ -11,7 +11,8 @@
   "editor.trimAutoWhitespace": true,
   "editor.tabCompletion": "on",
   "explorer.openEditors.visible": 0,
-  "window.restoreWindows": "none",
+  "files.hotExit": "onExitAndWindowClose",
+  "window.restoreWindows": "folders",
   "terminal.external.osxExec": "iTerm.app",
   "terminal.integrated.fontSize": 14,
   "files.autoSave": "onFocusChange",
@@ -22,7 +23,6 @@
   "editor.minimap.enabled": false,
   "editor.renderWhitespace": "none",
   "workbench.colorTheme": "Dracula",
-  "window.zoomLevel": 0,
   "extensions.ignoreRecommendations": false,
   "go.coverageDecorator": {
     "type": "gutter"
@@ -71,10 +71,18 @@
   "go.buildFlags": [
     "-v"
   ],
-  "editor.fontFamily": "Hack, 'Source Code Pro', Menlo, Monaco, 'Courier New', monospace",
   "editor.smoothScrolling": true,
-  "workbench.iconTheme": "material-icon-theme",
   "[dockerfile]": {
     "editor.defaultFormatter": "ms-azuretools.vscode-docker"
-  }
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "workbench.iconTheme": "material-icon-theme",
 }
