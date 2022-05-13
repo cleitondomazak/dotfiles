@@ -7,7 +7,7 @@ install() {
 if [ "$(uname -s)" = "Darwin" ]; then
 	if command -v brew >/dev/null 2>&1; then
 		brew tap homebrew/cask-fonts
-		brew cask install font-source-code-pro
+		brew install font-source-code-pro
 	else
 		install ~/Library/Fonts
 	fi
