@@ -1,5 +1,5 @@
 #!/bin/sh
 
-ln -s "$HOME"/Dropbox/Code "$HOME"/Code
+ln -s "$HOME"/Library/Mobile\ Documents/com~apple~CloudDocs/Code/farfetch "$HOME"/Code
 
-ln -s "$HOME"/Dropbox/ssh/.ssh "$HOME"/.ssh
+ln -s "$HOME"/Library/Mobile\ Documents/com~apple~CloudDocs/ssh/.ssh "$HOME"/.ssh
