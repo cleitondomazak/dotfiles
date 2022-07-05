@@ -52,4 +52,4 @@ export NVM_DIR="$HOME/.nvm"
 
 alias lima='QEMU_SYSTEM_AARCH64="qemu-system-aarch64 -machine virt,accel=tcg,highmem=off" limactl'
 
-
+export PATH=/opt/homebrew/bin:$PATH

@@ -7,7 +7,6 @@
   ],
   "editor.tabSize": 2,
   "editor.insertSpaces": true,
-  "editor.detectIndentation": false,
   "editor.trimAutoWhitespace": true,
   "editor.tabCompletion": "on",
   "explorer.openEditors.visible": 0,
@@ -21,7 +20,7 @@
   "window.title": "${activeEditorMedium}${separator}${rootName}",
   "files.trimTrailingWhitespace": true,
   "editor.minimap.enabled": false,
-  "editor.renderWhitespace": "none",
+  "editor.renderWhitespace": "all",
   "workbench.colorTheme": "Dracula",
   "extensions.ignoreRecommendations": false,
   "go.coverageDecorator": {
@@ -85,4 +84,5 @@
     "editor.defaultFormatter": "HookyQR.beautify"
   },
   "workbench.iconTheme": "material-icon-theme",
+  "editor.defaultFormatter": "HookyQR.beautify",
 }
