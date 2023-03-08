@@ -5,7 +5,6 @@
     80,
     120
   ],
-  "editor.tabSize": 2,
   "editor.insertSpaces": true,
   "editor.trimAutoWhitespace": true,
   "editor.tabCompletion": "on",
@@ -84,5 +83,5 @@
     "editor.defaultFormatter": "HookyQR.beautify"
   },
   "workbench.iconTheme": "material-icon-theme",
-  "editor.defaultFormatter": "HookyQR.beautify",
+"editor.defaultFormatter": "HookyQR.beautify",
 }
