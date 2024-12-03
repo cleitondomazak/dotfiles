@@ -6,6 +6,8 @@
     120
   ],
   "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
   "editor.trimAutoWhitespace": true,
   "editor.tabCompletion": "on",
   "explorer.openEditors.visible": 0,
@@ -20,7 +22,7 @@
   "files.trimTrailingWhitespace": true,
   "editor.minimap.enabled": false,
   "editor.renderWhitespace": "all",
-  "workbench.colorTheme": "Dracula",
+  "workbench.colorTheme": "Dracula Theme",
   "extensions.ignoreRecommendations": false,
   "go.coverageDecorator": {
     "type": "gutter"
@@ -63,7 +65,7 @@
     "autoComplete": true
   },
   "editor.codeActionsOnSave": {
-    "source.organizeImports": true
+    "source.organizeImports": "explicit"
   },
   "window.newWindowDimensions": "maximized",
   "go.buildFlags": [
@@ -74,14 +76,36 @@
     "editor.defaultFormatter": "ms-azuretools.vscode-docker"
   },
   "[javascript]": {
-    "editor.defaultFormatter": "HookyQR.beautify"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter.notebook.ipynb"
   },
   "[json]": {
-    "editor.defaultFormatter": "HookyQR.beautify"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "workbench.iconTheme": "material-icon-theme",
 "editor.defaultFormatter": "HookyQR.beautify",
+"[python]": {
+  "editor.defaultFormatter": "ms-python.python",
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2
+},
+"update.showReleaseNotes": false,
+"terminal.integrated.enableMultiLinePasteWarning": false,
+"[groovy]": {
+  "editor.defaultFormatter": "NicolasVuillamy.vscode-groovy-lint"
+},
+"[yaml]": {
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+"jupyter.interactiveWindow.textEditor.executeSelection": true,
+"jupyter.interactiveWindow.creationMode": "perFile",
+"[sql]": {
+  "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
+},
+"[terraform]": {
+  "editor.defaultFormatter": "hashicorp.terraform"
+},
+"editor.largeFileOptimizations": false,
 }
